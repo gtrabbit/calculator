@@ -1,0 +1,157 @@
+
+
+body{
+  font-family: "Orbitron", monospace;
+  background:  url("http://i32.photobucket.com/albums/d49/gtrabbit/DSC_0867_zpso0ccy7sz.jpg"); /* url("http://i32.photobucket.com/albums/d49/gtrabbit/DSC_0805_zpscr5kqylm.jpg"); alternate background */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(20, 20, 29, .8);
+  
+  padding: 0%;
+  margin: ;
+  display: block;
+   
+}
+#clear{
+  font-size: 60%;
+  display: inline-block;
+  text-align: left;
+  padding-left: 2%;
+}
+
+  
+
+.calc{
+  background: rgba(80, 60, 180, .3);
+  display: block;
+  position: relative;
+  height: 350px;
+  width: 275px;
+  top: 15%;
+  border: solid black 2px;
+  border-radius: 7% 7% 25% 12%;
+  margin: 10% auto;
+  }
+span{
+  font-size: 130%;
+  font-family: Lobster
+}
+h6{
+  color: white;
+  display: ;
+  top: 55%;
+  left: 40%;
+  position: absolute;
+}
+.sidebar{
+  background-color: white;
+  display: inline-block;
+  float: right;
+  position: relative;
+  height: 300px;
+  left: 0%;
+  min-width: 30%;
+  
+}
+#title{
+  position: relative;
+  top: -5%;
+  color: white;
+  right: -5%;
+}
+.display{
+  background-color: rgba(230, 230, 200, .7);
+  position: absolute;
+  min-height: 25px;
+  max-height: 112px;
+  width: 92%;
+  border: solid rgba(200,150,10,.7) 2px;
+  border-bottom: none;
+  left: 2.5%;
+  top: 7%;
+  font-family: "Orbitron", Courier, monospace;
+  font-size: 150%;
+  text-align: right;
+  padding-right: 5px;
+  overflow: hidden;
+  }
+
+.historyDisp{
+  display: block;
+  position: relative;
+  border-top: dashed black 1px;
+  font-size: 50%;
+  color: black;
+  overflow: hidden;
+  background-color: rgba(230, 230, 200, 0);
+  padding-right: 4px;
+  width: 100%;
+  top: -10%;
+  right: .5%;
+  min-height: 80px;
+  
+}
+.buttons{
+  position: absolute;
+  left: 5%;
+  top: 44%;
+  font-size: 150%;
+  width: 120%;
+  float: left;
+}
+
+button{
+  border: solid black 1px;
+  border-radius: 40%;
+  margin: 1%;
+  font-size: 110%;
+  background-color:  rgba(200,200,220,.7);
+  float: left;
+  height: 35px;
+  transition: background-color, 1s;
+  outline: 0;
+}
+button:hover, button:focus{
+    background: radial-gradient(ellipse at center, rgba(240,240,250,1) 0%, rgba(200,200,220,.5) 50%, rgba(200,150,120,1) 100%);
+}
+
+.numberButtons{
+  width: 40%;
+  float: left;
+}
+
+.by3{
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: 29%;
+  text-align: center;
+}
+
+.operators{
+  position: relative;
+  font-size: 120%;
+  float: left;
+  width: 30%;
+  display: inline-block;
+  }
+
+.operators button{
+  position: relative;
+  display: inline-block;
+  width: 31%;
+  font-size: 75%;
+  margin: 1%;
+  float: left;
+  
+  
+  
+}
+
+.by23rds{
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+}

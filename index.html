@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+
+
+  <div class="calc" onkeypress="setinputvar()">
+    <!-- calc -->
+    <p id="title"> <span>W</span>ondrous <span>N</span>umber <span>M</span>achine </p>
+    <div class="display">
+      <div id="display">
+        0
+      </div>
+      <div id="history" class="historyDisp">
+
+      </div>
+    </div>
+    <!-- closes display -->
+    <div class="buttons">
+      <div class="numberButtons">
+        <button id="one" class="by3" onmouseup="input(1)">
+        1
+      </button>
+        <button id="two" class="by3" onmouseup="input(2)">
+        2
+      </button>
+        <button id="three" class="by3" onmouseup="input(3)">
+        3
+      </button>
+        <button id="four" class="by3" onmouseup="input(4)">
+        4
+      </button>
+        <button id="five" class="by3" onmouseup="input(5)">
+        5
+      </button>
+        <button id="six" class="by3" onmouseup="input(6)">
+        6
+      </button>
+        <button id="seven" class="by3" onmouseup="input(7)">
+        7
+      </button>
+        <button id="eight" class="by3" onmouseup="input(8)">
+        8
+      </button>
+        <button id="nine" class="by3" onmouseup="input(9)">
+        9
+      </button>
+        <button id="zero" class="by23rds" onmouseup="input(0)">
+        0
+      </button>
+        <button id="decimal" class="by3" onmouseup="input('.')">
+        .
+        </button>
+      </div>
+      <!-- closes number buttons -->
+      <div class="operators">
+        <div class="typos">
+          <button id="clear" onmouseup="clearAll()">
+        CA
+      </button>
+          <button id="clearsome" onmouseup="clearsome()">
+        C
+      <button id="backspace" onmouseup="backspace()">
+      &#8656;
+      </button>
+        </div>
+        <!-- closes typos -->
+        <button id="plus" onmouseup="input('+')">
+          +
+        </button>
+        <button id="minus" onmouseup="input('-')">
+        -
+        </button>
+        <button id="multi" onmouseup="input('*')">
+        &#215;
+        </button>
+        <button id="divide" onmouseup="input('/')">
+          /
+        </button>
+
+
+        <div class="enter">
+          <button id="enter" onmouseup="calculate()">
+      =
+      </button>
+          <button onkeyup="show()" autofocus> &#9885;</button>
+          </div>
+        <!-- closes enter -->
+
+      </div>
+      <!-- closes operators -->
+      <h6> more buttons<br> coming soon... </h6>
+    </div>
+    <!-- closes buttons -->
+
+
+  </div>
+  <!-- closes calc -->
+
+  
+  
+    <div class="bottomBar">
+    <p> by Chris Rune <br>
+      links and stuff coming in later </p>
+    </div>
+
+<!-- closes bottom -->
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
